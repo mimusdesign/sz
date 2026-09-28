@@ -2,7 +2,7 @@ name: Scraper Eswatini
 
 on:
   schedule:
-    - cron: "0 */2 * * *"
+    - cron: "38 7 * * 2,6"
   workflow_dispatch:
 
 # Prevent a manual run and a scheduled run (or two schedules) from overlapping.
